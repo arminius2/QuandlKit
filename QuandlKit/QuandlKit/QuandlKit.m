@@ -11,7 +11,7 @@
 #import "AFJSONRequestOperation.h"
 #import "AFHTTPClient.h"
 
-#define API_TOKEN @"HgiJyoiRzRqhkJx3J7bF"
+#define API_TOKEN @"HAHAHAHAHANO"
 
 static QuandlKit *__quandlKitSingletonInstance = nil;
 
