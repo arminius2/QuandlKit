@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11DD1B016C0B95E006A6AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1AF16C0B95E006A6AED /* UIKit.framework */; };
+		C11DD1B216C0B95E006A6AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1B116C0B95E006A6AED /* Foundation.framework */; };
+		C11DD1B416C0B95E006A6AED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1B316C0B95E006A6AED /* CoreGraphics.framework */; };
+		C11DD1BA16C0B95E006A6AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C11DD1B816C0B95E006A6AED /* InfoPlist.strings */; };
+		C11DD1BC16C0B95E006A6AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1BB16C0B95E006A6AED /* main.m */; };
+		C11DD1C016C0B95E006A6AED /* QKTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1BF16C0B95E006A6AED /* QKTAppDelegate.m */; };
+		C11DD1C216C0B95E006A6AED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C11DD1C116C0B95E006A6AED /* Default.png */; };
+		C11DD1C416C0B95E006A6AED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11DD1C316C0B95E006A6AED /* Default@2x.png */; };
+		C11DD1C616C0B95E006A6AED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11DD1C516C0B95E006A6AED /* Default-568h@2x.png */; };
+		C163E04A16C70C9A00E5EE14 /* libQuandlKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C163E04916C70C9A00E5EE14 /* libQuandlKit.a */; };
+		C1815DC616C7FCFF00F889E7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1815DC516C7FCFF00F889E7 /* MobileCoreServices.framework */; };
+		C1815DC816C7FD1200F889E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1815DC716C7FD1200F889E7 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C163E06116C70F8C00E5EE14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C163E05A16C70F8C00E5EE14 /* QuandlKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C11DD19216C0B92B006A6AED;
+			remoteInfo = QuandlKit;
+		};
+		C163E06416C70F9400E5EE14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C163E05A16C70F8C00E5EE14 /* QuandlKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C11DD19116C0B92B006A6AED;
+			remoteInfo = QuandlKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C11DD1AC16C0B95E006A6AED /* QuandlKitTestHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuandlKitTestHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11DD1AF16C0B95E006A6AED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C11DD1B116C0B95E006A6AED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C11DD1B316C0B95E006A6AED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C11DD1B716C0B95E006A6AED /* QuandlKitTestHarness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuandlKitTestHarness-Info.plist"; sourceTree = "<group>"; };
+		C11DD1B916C0B95E006A6AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C11DD1BB16C0B95E006A6AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C11DD1BD16C0B95E006A6AED /* QuandlKitTestHarness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuandlKitTestHarness-Prefix.pch"; sourceTree = "<group>"; };
+		C11DD1BE16C0B95E006A6AED /* QKTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKTAppDelegate.h; sourceTree = "<group>"; };
+		C11DD1BF16C0B95E006A6AED /* QKTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKTAppDelegate.m; sourceTree = "<group>"; };
+		C11DD1C116C0B95E006A6AED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C11DD1C316C0B95E006A6AED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C11DD1C516C0B95E006A6AED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C163E04916C70C9A00E5EE14 /* libQuandlKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQuandlKit.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/QuandlApp-gwjytvtbzulvttdfeyvkneubxkgu/Build/Products/Debug-iphoneos/libQuandlKit.a"; sourceTree = "<group>"; };
+		C163E05A16C70F8C00E5EE14 /* QuandlKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuandlKit.xcodeproj; path = ../../QuandlKit/QuandlKit.xcodeproj; sourceTree = "<group>"; };
+		C1815DC516C7FCFF00F889E7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C1815DC716C7FD1200F889E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11DD1A916C0B95E006A6AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1815DC816C7FD1200F889E7 /* SystemConfiguration.framework in Frameworks */,
+				C1815DC616C7FCFF00F889E7 /* MobileCoreServices.framework in Frameworks */,
+				C163E04A16C70C9A00E5EE14 /* libQuandlKit.a in Frameworks */,
+				C11DD1B016C0B95E006A6AED /* UIKit.framework in Frameworks */,
+				C11DD1B216C0B95E006A6AED /* Foundation.framework in Frameworks */,
+				C11DD1B416C0B95E006A6AED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11DD1A316C0B95E006A6AED = {
+			isa = PBXGroup;
+			children = (
+				C11DD1B516C0B95E006A6AED /* QuandlKitTestHarness */,
+				C11DD1AE16C0B95E006A6AED /* Frameworks */,
+				C11DD1AD16C0B95E006A6AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11DD1AD16C0B95E006A6AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD1AC16C0B95E006A6AED /* QuandlKitTestHarness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11DD1AE16C0B95E006A6AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1815DC716C7FD1200F889E7 /* SystemConfiguration.framework */,
+				C1815DC516C7FCFF00F889E7 /* MobileCoreServices.framework */,
+				C163E04916C70C9A00E5EE14 /* libQuandlKit.a */,
+				C11DD1AF16C0B95E006A6AED /* UIKit.framework */,
+				C11DD1B116C0B95E006A6AED /* Foundation.framework */,
+				C11DD1B316C0B95E006A6AED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11DD1B516C0B95E006A6AED /* QuandlKitTestHarness */ = {
+			isa = PBXGroup;
+			children = (
+				C163E05A16C70F8C00E5EE14 /* QuandlKit.xcodeproj */,
+				C11DD1BE16C0B95E006A6AED /* QKTAppDelegate.h */,
+				C11DD1BF16C0B95E006A6AED /* QKTAppDelegate.m */,
+				C11DD1B616C0B95E006A6AED /* Supporting Files */,
+			);
+			path = QuandlKitTestHarness;
+			sourceTree = "<group>";
+		};
+		C11DD1B616C0B95E006A6AED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD1B716C0B95E006A6AED /* QuandlKitTestHarness-Info.plist */,
+				C11DD1B816C0B95E006A6AED /* InfoPlist.strings */,
+				C11DD1BB16C0B95E006A6AED /* main.m */,
+				C11DD1BD16C0B95E006A6AED /* QuandlKitTestHarness-Prefix.pch */,
+				C11DD1C116C0B95E006A6AED /* Default.png */,
+				C11DD1C316C0B95E006A6AED /* Default@2x.png */,
+				C11DD1C516C0B95E006A6AED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C163E05B16C70F8C00E5EE14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C163E06216C70F8C00E5EE14 /* libQuandlKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11DD1AB16C0B95E006A6AED /* QuandlKitTestHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11DD1C916C0B95E006A6AED /* Build configuration list for PBXNativeTarget "QuandlKitTestHarness" */;
+			buildPhases = (
+				C11DD1A816C0B95E006A6AED /* Sources */,
+				C11DD1A916C0B95E006A6AED /* Frameworks */,
+				C11DD1AA16C0B95E006A6AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C163E06516C70F9400E5EE14 /* PBXTargetDependency */,
+			);
+			name = QuandlKitTestHarness;
+			productName = QuandlKitTestHarness;
+			productReference = C11DD1AC16C0B95E006A6AED /* QuandlKitTestHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11DD1A416C0B95E006A6AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QKT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AlexRocks;
+			};
+			buildConfigurationList = C11DD1A716C0B95E006A6AED /* Build configuration list for PBXProject "QuandlKitTestHarness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C11DD1A316C0B95E006A6AED;
+			productRefGroup = C11DD1AD16C0B95E006A6AED /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C163E05B16C70F8C00E5EE14 /* Products */;
+					ProjectRef = C163E05A16C70F8C00E5EE14 /* QuandlKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C11DD1AB16C0B95E006A6AED /* QuandlKitTestHarness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C163E06216C70F8C00E5EE14 /* libQuandlKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuandlKit.a;
+			remoteRef = C163E06116C70F8C00E5EE14 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11DD1AA16C0B95E006A6AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11DD1BA16C0B95E006A6AED /* InfoPlist.strings in Resources */,
+				C11DD1C216C0B95E006A6AED /* Default.png in Resources */,
+				C11DD1C416C0B95E006A6AED /* Default@2x.png in Resources */,
+				C11DD1C616C0B95E006A6AED /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11DD1A816C0B95E006A6AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11DD1BC16C0B95E006A6AED /* main.m in Sources */,
+				C11DD1C016C0B95E006A6AED /* QKTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C163E06516C70F9400E5EE14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuandlKit;
+			targetProxy = C163E06416C70F9400E5EE14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C11DD1B816C0B95E006A6AED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11DD1B916C0B95E006A6AED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11DD1C716C0B95E006A6AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11DD1C816C0B95E006A6AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11DD1CA16C0B95E006A6AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuandlKitTestHarness/QuandlKitTestHarness-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../QuandlKit/QuandlKit/;
+				INFOPLIST_FILE = "QuandlKitTestHarness/QuandlKitTestHarness-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/QuandlApp-gwjytvtbzulvttdfeyvkneubxkgu/Build/Products/Debug-iphoneos\"",
+				);
+				PLIST_FILE_OUTPUT_FORMAT = XML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C11DD1CB16C0B95E006A6AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuandlKitTestHarness/QuandlKitTestHarness-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../QuandlKit/QuandlKit/;
+				INFOPLIST_FILE = "QuandlKitTestHarness/QuandlKitTestHarness-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/QuandlApp-gwjytvtbzulvttdfeyvkneubxkgu/Build/Products/Debug-iphoneos\"",
+				);
+				PLIST_FILE_OUTPUT_FORMAT = XML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11DD1A716C0B95E006A6AED /* Build configuration list for PBXProject "QuandlKitTestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11DD1C716C0B95E006A6AED /* Debug */,
+				C11DD1C816C0B95E006A6AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11DD1C916C0B95E006A6AED /* Build configuration list for PBXNativeTarget "QuandlKitTestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11DD1CA16C0B95E006A6AED /* Debug */,
+				C11DD1CB16C0B95E006A6AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11DD1A416C0B95E006A6AED /* Project object */;
+}

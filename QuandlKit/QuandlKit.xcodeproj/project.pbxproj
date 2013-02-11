@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11DD19616C0B92B006A6AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD19516C0B92B006A6AED /* Foundation.framework */; };
+		C11DD19B16C0B92B006A6AED /* QuandlKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD19A16C0B92B006A6AED /* QuandlKit.h */; };
+		C11DD19D16C0B92B006A6AED /* QuandlKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD19C16C0B92B006A6AED /* QuandlKit.m */; };
+		C11DD1E016C0BA08006A6AED /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1CE16C0BA08006A6AED /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E116C0BA08006A6AED /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1D016C0BA08006A6AED /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E216C0BA08006A6AED /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1D216C0BA08006A6AED /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E316C0BA08006A6AED /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1D416C0BA08006A6AED /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E416C0BA08006A6AED /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1D616C0BA08006A6AED /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E516C0BA08006A6AED /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1D916C0BA08006A6AED /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E616C0BA08006A6AED /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1DB16C0BA08006A6AED /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E716C0BA08006A6AED /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1DD16C0BA08006A6AED /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1E816C0BA08006A6AED /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1DF16C0BA08006A6AED /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C11DD1EA16C0BA64006A6AED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1E916C0BA64006A6AED /* MobileCoreServices.framework */; };
+		C11DD1EC16C0BA81006A6AED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1EB16C0BA81006A6AED /* SystemConfiguration.framework */; };
+		C11DD1F016C0BC38006A6AED /* QuandlDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1EF16C0BC38006A6AED /* QuandlDataSet.m */; };
+		C11DD1F316C0BC47006A6AED /* QuandlSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1F216C0BC47006A6AED /* QuandlSearchResults.m */; };
+		C11DD1F916C0BD07006A6AED /* QuandlKitResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1F816C0BD07006A6AED /* QuandlKitResult.m */; };
+		C11DD1FC16C0BD93006A6AED /* QuandlKit+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DD1FB16C0BD93006A6AED /* QuandlKit+Private.m */; };
+		C163E04C16C70EF800E5EE14 /* AFHTTPClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1CD16C0BA08006A6AED /* AFHTTPClient.h */; };
+		C163E04D16C70EF800E5EE14 /* AFHTTPRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1CF16C0BA08006A6AED /* AFHTTPRequestOperation.h */; };
+		C163E04E16C70EF800E5EE14 /* AFImageRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1D116C0BA08006A6AED /* AFImageRequestOperation.h */; };
+		C163E04F16C70EF800E5EE14 /* AFJSONRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1D316C0BA08006A6AED /* AFJSONRequestOperation.h */; };
+		C163E05016C70EF800E5EE14 /* AFNetworkActivityIndicatorManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1D516C0BA08006A6AED /* AFNetworkActivityIndicatorManager.h */; };
+		C163E05116C70EF800E5EE14 /* AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1D716C0BA08006A6AED /* AFNetworking.h */; };
+		C163E05216C70EF800E5EE14 /* AFPropertyListRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1D816C0BA08006A6AED /* AFPropertyListRequestOperation.h */; };
+		C163E05316C70EF800E5EE14 /* AFURLConnectionOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1DA16C0BA08006A6AED /* AFURLConnectionOperation.h */; };
+		C163E05416C70EF800E5EE14 /* AFXMLRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1DC16C0BA08006A6AED /* AFXMLRequestOperation.h */; };
+		C163E05516C70EF800E5EE14 /* UIImageView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C11DD1DE16C0BA08006A6AED /* UIImageView+AFNetworking.h */; };
+		C1815DD016C81EEC00F889E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1815DCF16C81EEC00F889E7 /* SenTestingKit.framework */; };
+		C1815DD216C81EEC00F889E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1815DD116C81EEC00F889E7 /* UIKit.framework */; };
+		C1815DD316C81EEC00F889E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD19516C0B92B006A6AED /* Foundation.framework */; };
+		C1815DD916C81EEC00F889E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1815DD716C81EEC00F889E7 /* InfoPlist.strings */; };
+		C1815DDC16C81EEC00F889E7 /* QuandlKitUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1815DDB16C81EEC00F889E7 /* QuandlKitUnitTests.m */; };
+		C1815DE316C81F3F00F889E7 /* libQuandlKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD19216C0B92B006A6AED /* libQuandlKit.a */; };
+		C1815DE416C81F4E00F889E7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1E916C0BA64006A6AED /* MobileCoreServices.framework */; };
+		C1815DE516C81F5500F889E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11DD1EB16C0BA81006A6AED /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1815DE116C81F3A00F889E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C11DD18A16C0B92B006A6AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11DD19116C0B92B006A6AED;
+			remoteInfo = QuandlKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C11DD19016C0B92B006A6AED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C11DD19B16C0B92B006A6AED /* QuandlKit.h in CopyFiles */,
+				C163E04C16C70EF800E5EE14 /* AFHTTPClient.h in CopyFiles */,
+				C163E04D16C70EF800E5EE14 /* AFHTTPRequestOperation.h in CopyFiles */,
+				C163E04E16C70EF800E5EE14 /* AFImageRequestOperation.h in CopyFiles */,
+				C163E04F16C70EF800E5EE14 /* AFJSONRequestOperation.h in CopyFiles */,
+				C163E05016C70EF800E5EE14 /* AFNetworkActivityIndicatorManager.h in CopyFiles */,
+				C163E05116C70EF800E5EE14 /* AFNetworking.h in CopyFiles */,
+				C163E05216C70EF800E5EE14 /* AFPropertyListRequestOperation.h in CopyFiles */,
+				C163E05316C70EF800E5EE14 /* AFURLConnectionOperation.h in CopyFiles */,
+				C163E05416C70EF800E5EE14 /* AFXMLRequestOperation.h in CopyFiles */,
+				C163E05516C70EF800E5EE14 /* UIImageView+AFNetworking.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C11DD19216C0B92B006A6AED /* libQuandlKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQuandlKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11DD19516C0B92B006A6AED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C11DD19916C0B92B006A6AED /* QuandlKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuandlKit-Prefix.pch"; sourceTree = "<group>"; };
+		C11DD19A16C0B92B006A6AED /* QuandlKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuandlKit.h; sourceTree = "<group>"; };
+		C11DD19C16C0B92B006A6AED /* QuandlKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuandlKit.m; sourceTree = "<group>"; };
+		C11DD1CD16C0BA08006A6AED /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = "../../AFNetworking-master/AFNetworking/AFHTTPClient.h"; sourceTree = "<group>"; };
+		C11DD1CE16C0BA08006A6AED /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = "../../AFNetworking-master/AFNetworking/AFHTTPClient.m"; sourceTree = "<group>"; };
+		C11DD1CF16C0BA08006A6AED /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "../../AFNetworking-master/AFNetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
+		C11DD1D016C0BA08006A6AED /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = "../../AFNetworking-master/AFNetworking/AFHTTPRequestOperation.m"; sourceTree = "<group>"; };
+		C11DD1D116C0BA08006A6AED /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = "../../AFNetworking-master/AFNetworking/AFImageRequestOperation.h"; sourceTree = "<group>"; };
+		C11DD1D216C0BA08006A6AED /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = "../../AFNetworking-master/AFNetworking/AFImageRequestOperation.m"; sourceTree = "<group>"; };
+		C11DD1D316C0BA08006A6AED /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = "../../AFNetworking-master/AFNetworking/AFJSONRequestOperation.h"; sourceTree = "<group>"; };
+		C11DD1D416C0BA08006A6AED /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = "../../AFNetworking-master/AFNetworking/AFJSONRequestOperation.m"; sourceTree = "<group>"; };
+		C11DD1D516C0BA08006A6AED /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "../../AFNetworking-master/AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		C11DD1D616C0BA08006A6AED /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "../../AFNetworking-master/AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		C11DD1D716C0BA08006A6AED /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "../../AFNetworking-master/AFNetworking/AFNetworking.h"; sourceTree = "<group>"; };
+		C11DD1D816C0BA08006A6AED /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = "../../AFNetworking-master/AFNetworking/AFPropertyListRequestOperation.h"; sourceTree = "<group>"; };
+		C11DD1D916C0BA08006A6AED /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = "../../AFNetworking-master/AFNetworking/AFPropertyListRequestOperation.m"; sourceTree = "<group>"; };
+		C11DD1DA16C0BA08006A6AED /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = "../../AFNetworking-master/AFNetworking/AFURLConnectionOperation.h"; sourceTree = "<group>"; };
+		C11DD1DB16C0BA08006A6AED /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = "../../AFNetworking-master/AFNetworking/AFURLConnectionOperation.m"; sourceTree = "<group>"; };
+		C11DD1DC16C0BA08006A6AED /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = "../../AFNetworking-master/AFNetworking/AFXMLRequestOperation.h"; sourceTree = "<group>"; };
+		C11DD1DD16C0BA08006A6AED /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = "../../AFNetworking-master/AFNetworking/AFXMLRequestOperation.m"; sourceTree = "<group>"; };
+		C11DD1DE16C0BA08006A6AED /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "../../AFNetworking-master/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		C11DD1DF16C0BA08006A6AED /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "../../AFNetworking-master/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		C11DD1E916C0BA64006A6AED /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C11DD1EB16C0BA81006A6AED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C11DD1EE16C0BC38006A6AED /* QuandlDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuandlDataSet.h; sourceTree = "<group>"; };
+		C11DD1EF16C0BC38006A6AED /* QuandlDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuandlDataSet.m; sourceTree = "<group>"; };
+		C11DD1F116C0BC47006A6AED /* QuandlSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuandlSearchResults.h; sourceTree = "<group>"; };
+		C11DD1F216C0BC47006A6AED /* QuandlSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuandlSearchResults.m; sourceTree = "<group>"; };
+		C11DD1F716C0BD07006A6AED /* QuandlKitResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuandlKitResult.h; sourceTree = "<group>"; };
+		C11DD1F816C0BD07006A6AED /* QuandlKitResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuandlKitResult.m; sourceTree = "<group>"; };
+		C11DD1FA16C0BD93006A6AED /* QuandlKit+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuandlKit+Private.h"; sourceTree = "<group>"; };
+		C11DD1FB16C0BD93006A6AED /* QuandlKit+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuandlKit+Private.m"; sourceTree = "<group>"; };
+		C1815DCE16C81EEC00F889E7 /* QuandlKitUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuandlKitUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1815DCF16C81EEC00F889E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1815DD116C81EEC00F889E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1815DD616C81EEC00F889E7 /* QuandlKitUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuandlKitUnitTests-Info.plist"; sourceTree = "<group>"; };
+		C1815DD816C81EEC00F889E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1815DDA16C81EEC00F889E7 /* QuandlKitUnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuandlKitUnitTests.h; sourceTree = "<group>"; };
+		C1815DDB16C81EEC00F889E7 /* QuandlKitUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuandlKitUnitTests.m; sourceTree = "<group>"; };
+		C1815DDD16C81EEC00F889E7 /* QuandlKitUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuandlKitUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11DD18F16C0B92B006A6AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11DD1EC16C0BA81006A6AED /* SystemConfiguration.framework in Frameworks */,
+				C11DD1EA16C0BA64006A6AED /* MobileCoreServices.framework in Frameworks */,
+				C11DD19616C0B92B006A6AED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1815DCA16C81EEC00F889E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1815DE516C81F5500F889E7 /* SystemConfiguration.framework in Frameworks */,
+				C1815DE416C81F4E00F889E7 /* MobileCoreServices.framework in Frameworks */,
+				C1815DE316C81F3F00F889E7 /* libQuandlKit.a in Frameworks */,
+				C1815DD016C81EEC00F889E7 /* SenTestingKit.framework in Frameworks */,
+				C1815DD216C81EEC00F889E7 /* UIKit.framework in Frameworks */,
+				C1815DD316C81EEC00F889E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11DD18916C0B92B006A6AED = {
+			isa = PBXGroup;
+			children = (
+				C11DD19716C0B92B006A6AED /* QuandlKit */,
+				C1815DD416C81EEC00F889E7 /* QuandlKitUnitTests */,
+				C11DD19416C0B92B006A6AED /* Frameworks */,
+				C11DD19316C0B92B006A6AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11DD19316C0B92B006A6AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD19216C0B92B006A6AED /* libQuandlKit.a */,
+				C1815DCE16C81EEC00F889E7 /* QuandlKitUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11DD19416C0B92B006A6AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD1EB16C0BA81006A6AED /* SystemConfiguration.framework */,
+				C11DD1E916C0BA64006A6AED /* MobileCoreServices.framework */,
+				C11DD19516C0B92B006A6AED /* Foundation.framework */,
+				C1815DCF16C81EEC00F889E7 /* SenTestingKit.framework */,
+				C1815DD116C81EEC00F889E7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11DD19716C0B92B006A6AED /* QuandlKit */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD19A16C0B92B006A6AED /* QuandlKit.h */,
+				C11DD19C16C0B92B006A6AED /* QuandlKit.m */,
+				C11DD1FA16C0BD93006A6AED /* QuandlKit+Private.h */,
+				C11DD1FB16C0BD93006A6AED /* QuandlKit+Private.m */,
+				C11DD1ED16C0BAD6006A6AED /* QuandlItems */,
+				C11DD1CC16C0B9EE006A6AED /* Vendor */,
+				C11DD19816C0B92B006A6AED /* Supporting Files */,
+			);
+			path = QuandlKit;
+			sourceTree = "<group>";
+		};
+		C11DD19816C0B92B006A6AED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD19916C0B92B006A6AED /* QuandlKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C11DD1CC16C0B9EE006A6AED /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD1CD16C0BA08006A6AED /* AFHTTPClient.h */,
+				C11DD1CE16C0BA08006A6AED /* AFHTTPClient.m */,
+				C11DD1CF16C0BA08006A6AED /* AFHTTPRequestOperation.h */,
+				C11DD1D016C0BA08006A6AED /* AFHTTPRequestOperation.m */,
+				C11DD1D116C0BA08006A6AED /* AFImageRequestOperation.h */,
+				C11DD1D216C0BA08006A6AED /* AFImageRequestOperation.m */,
+				C11DD1D316C0BA08006A6AED /* AFJSONRequestOperation.h */,
+				C11DD1D416C0BA08006A6AED /* AFJSONRequestOperation.m */,
+				C11DD1D516C0BA08006A6AED /* AFNetworkActivityIndicatorManager.h */,
+				C11DD1D616C0BA08006A6AED /* AFNetworkActivityIndicatorManager.m */,
+				C11DD1D716C0BA08006A6AED /* AFNetworking.h */,
+				C11DD1D816C0BA08006A6AED /* AFPropertyListRequestOperation.h */,
+				C11DD1D916C0BA08006A6AED /* AFPropertyListRequestOperation.m */,
+				C11DD1DA16C0BA08006A6AED /* AFURLConnectionOperation.h */,
+				C11DD1DB16C0BA08006A6AED /* AFURLConnectionOperation.m */,
+				C11DD1DC16C0BA08006A6AED /* AFXMLRequestOperation.h */,
+				C11DD1DD16C0BA08006A6AED /* AFXMLRequestOperation.m */,
+				C11DD1DE16C0BA08006A6AED /* UIImageView+AFNetworking.h */,
+				C11DD1DF16C0BA08006A6AED /* UIImageView+AFNetworking.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		C11DD1ED16C0BAD6006A6AED /* QuandlItems */ = {
+			isa = PBXGroup;
+			children = (
+				C11DD1EE16C0BC38006A6AED /* QuandlDataSet.h */,
+				C11DD1EF16C0BC38006A6AED /* QuandlDataSet.m */,
+				C11DD1F116C0BC47006A6AED /* QuandlSearchResults.h */,
+				C11DD1F216C0BC47006A6AED /* QuandlSearchResults.m */,
+				C11DD1F716C0BD07006A6AED /* QuandlKitResult.h */,
+				C11DD1F816C0BD07006A6AED /* QuandlKitResult.m */,
+			);
+			name = QuandlItems;
+			sourceTree = "<group>";
+		};
+		C1815DD416C81EEC00F889E7 /* QuandlKitUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1815DDA16C81EEC00F889E7 /* QuandlKitUnitTests.h */,
+				C1815DDB16C81EEC00F889E7 /* QuandlKitUnitTests.m */,
+				C1815DD516C81EEC00F889E7 /* Supporting Files */,
+			);
+			path = QuandlKitUnitTests;
+			sourceTree = "<group>";
+		};
+		C1815DD516C81EEC00F889E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1815DD616C81EEC00F889E7 /* QuandlKitUnitTests-Info.plist */,
+				C1815DD716C81EEC00F889E7 /* InfoPlist.strings */,
+				C1815DDD16C81EEC00F889E7 /* QuandlKitUnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11DD19116C0B92B006A6AED /* QuandlKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11DD1A016C0B92B006A6AED /* Build configuration list for PBXNativeTarget "QuandlKit" */;
+			buildPhases = (
+				C11DD18E16C0B92B006A6AED /* Sources */,
+				C11DD18F16C0B92B006A6AED /* Frameworks */,
+				C11DD19016C0B92B006A6AED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuandlKit;
+			productName = QuandlKit;
+			productReference = C11DD19216C0B92B006A6AED /* libQuandlKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1815DCD16C81EEC00F889E7 /* QuandlKitUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1815DE016C81EEC00F889E7 /* Build configuration list for PBXNativeTarget "QuandlKitUnitTests" */;
+			buildPhases = (
+				C1815DC916C81EEC00F889E7 /* Sources */,
+				C1815DCA16C81EEC00F889E7 /* Frameworks */,
+				C1815DCB16C81EEC00F889E7 /* Resources */,
+				C1815DCC16C81EEC00F889E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1815DE216C81F3A00F889E7 /* PBXTargetDependency */,
+			);
+			name = QuandlKitUnitTests;
+			productName = QuandlKitUnitTests;
+			productReference = C1815DCE16C81EEC00F889E7 /* QuandlKitUnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11DD18A16C0B92B006A6AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AlexRocks;
+			};
+			buildConfigurationList = C11DD18D16C0B92B006A6AED /* Build configuration list for PBXProject "QuandlKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C11DD18916C0B92B006A6AED;
+			productRefGroup = C11DD19316C0B92B006A6AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11DD19116C0B92B006A6AED /* QuandlKit */,
+				C1815DCD16C81EEC00F889E7 /* QuandlKitUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1815DCB16C81EEC00F889E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1815DD916C81EEC00F889E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1815DCC16C81EEC00F889E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11DD18E16C0B92B006A6AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11DD19D16C0B92B006A6AED /* QuandlKit.m in Sources */,
+				C11DD1E016C0BA08006A6AED /* AFHTTPClient.m in Sources */,
+				C11DD1E116C0BA08006A6AED /* AFHTTPRequestOperation.m in Sources */,
+				C11DD1E216C0BA08006A6AED /* AFImageRequestOperation.m in Sources */,
+				C11DD1E316C0BA08006A6AED /* AFJSONRequestOperation.m in Sources */,
+				C11DD1E416C0BA08006A6AED /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C11DD1E516C0BA08006A6AED /* AFPropertyListRequestOperation.m in Sources */,
+				C11DD1E616C0BA08006A6AED /* AFURLConnectionOperation.m in Sources */,
+				C11DD1E716C0BA08006A6AED /* AFXMLRequestOperation.m in Sources */,
+				C11DD1E816C0BA08006A6AED /* UIImageView+AFNetworking.m in Sources */,
+				C11DD1F016C0BC38006A6AED /* QuandlDataSet.m in Sources */,
+				C11DD1F316C0BC47006A6AED /* QuandlSearchResults.m in Sources */,
+				C11DD1F916C0BD07006A6AED /* QuandlKitResult.m in Sources */,
+				C11DD1FC16C0BD93006A6AED /* QuandlKit+Private.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1815DC916C81EEC00F889E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1815DDC16C81EEC00F889E7 /* QuandlKitUnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1815DE216C81F3A00F889E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11DD19116C0B92B006A6AED /* QuandlKit */;
+			targetProxy = C1815DE116C81F3A00F889E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1815DD716C81EEC00F889E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1815DD816C81EEC00F889E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11DD19E16C0B92B006A6AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C11DD19F16C0B92B006A6AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11DD1A116C0B92B006A6AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/QuandlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuandlKit/QuandlKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C11DD1A216C0B92B006A6AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/QuandlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuandlKit/QuandlKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C1815DDE16C81EEC00F889E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuandlKitUnitTests/QuandlKitUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "QuandlKitUnitTests/QuandlKitUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C1815DDF16C81EEC00F889E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuandlKitUnitTests/QuandlKitUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "QuandlKitUnitTests/QuandlKitUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11DD18D16C0B92B006A6AED /* Build configuration list for PBXProject "QuandlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11DD19E16C0B92B006A6AED /* Debug */,
+				C11DD19F16C0B92B006A6AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11DD1A016C0B92B006A6AED /* Build configuration list for PBXNativeTarget "QuandlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11DD1A116C0B92B006A6AED /* Debug */,
+				C11DD1A216C0B92B006A6AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1815DE016C81EEC00F889E7 /* Build configuration list for PBXNativeTarget "QuandlKitUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1815DDE16C81EEC00F889E7 /* Debug */,
+				C1815DDF16C81EEC00F889E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11DD18A16C0B92B006A6AED /* Project object */;
+}

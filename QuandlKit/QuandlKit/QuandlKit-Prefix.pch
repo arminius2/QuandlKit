@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'QuandlKit' target in the 'QuandlKit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import "QuandlDataSet.h"
+    #import "QuandlKitResult.h"
+#endif
